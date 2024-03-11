@@ -1,9 +1,12 @@
+GET http://localhost:3333/food
+###
+
 POST http://localhost:3333/food
 Content-Type: application/json
 
 {
-  "name": "X-Burguer",
-  "price": 22.50,
-  "description": "O X-Burguer é um clássico sanduíche americano, e com um hambúrguer artesanal de 150g, é ainda mais especial. Com um suculento hambúrguer no ponto certo, você pode escolher entre o queijo cheddar ou mussarela para adicionar um toque cremoso ao seu sanduíche",
+  "name": "Whopper",
+  "price": 30.00,
+  "description": "Pão com gergelim, maionese, alface, tomate, cebola, ketchup, picles, queijo derretido e um suculento hambúrguer de pura carne bovina. Todos esses ingredientes são cuidadosamente armazenados e preparados, para você se deliciar com um sanduíche fresquinho e de alta qualidade",
   "imageUrl": "https://cdn.pixabay.com/photo/2023/10/25/04/27/burger-8339491_1280.jpg"
 }
